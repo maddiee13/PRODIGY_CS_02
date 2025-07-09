@@ -1,0 +1,28 @@
+# PixCryptor Requirements
+# ======================
+# Install all with: pip install -r requirements.txt
+
+# ---
+# Core dependencies
+# ---
+
+# Pillow: For image file reading, writing, and manipulation
+Pillow>=9.0.0
+
+# colorama: For colorized output in the CLI (cross-platform)
+colorama>=0.4.0
+
+# ---
+# Optional/Recommended
+# ---
+# (Uncomment if you want to use these features)
+#
+# tqdm: For advanced progress bars in CLI (not required, but nice for large files)
+# tqdm>=4.0.0
+
+# ---
+# Notes
+# ---
+# - All dependencies are available on PyPI.
+# - If you use a virtual environment, activate it before installing.
+# - If you add more features (e.g., support for more image formats), you may need to add more packages here.
